@@ -194,6 +194,37 @@ h2{
     margin: 0 auto;
 }
 
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+h3{
+    padding-bottom: 30px;
+}
+
+footer .container section{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-facebook{
+    color: white;
+}
+
+.fa-twitter{
+    color: white;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+
+
 @media screen and (min-width:500px) {
     p{
         font-size: 16px;
@@ -251,12 +282,56 @@ h2{
         background-color:#040A0A ;
     }
 
-    .portfolio div picture{
-        width: 300px;
+    .portfolio div{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+
+    .portfolio div img{
+        width: auto;
     }
 
     h2{
         padding-top: 40px;
+    }
+
+    footer .container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 40px;
+    }
+
+    h3{
+        display: inline;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+
+    footer section{
+        margin-right: 50px;
+    }
+
+    header .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    header .container a{
+        padding: 0;
+        flex-grow: 1;
+    }
+
+    nav{
+        flex-grow: 5;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
 }
@@ -284,6 +359,7 @@ h2{
         background-color: #276E6A;
 
     }
+
 
     .section-banner p{
         width: 456px;
