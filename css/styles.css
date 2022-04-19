@@ -346,16 +346,13 @@ footer .container section{
         margin: 0 auto;
         padding-right: 0px;
         padding-left: 0px;
-        width: 1240px;
+        margin: 0;
     }
 
     main .container{
         background-color: #040A0A;
-    }
-
-    main .container{
-        padding-right: 60px;
-        padding-left: 60px;
+        width: 1280px;
+        margin: 0 auto;
     }
 
     .section-banner p{
@@ -373,15 +370,44 @@ footer .container section{
         font-size: 18px;
      }
 
+
+     .section-banner img{
+         display: block;
+         margin: 0 auto;
+         width: 70%;
+     }
+
+     .section-banner{
+         background-color: #276E6A;
+         margin: auto;
+     }
+
      button{
          font-size: 18px;
      }
 
-      main .container .container{
+     main .container .container{
          background-color: #276E6A;
-         width: 100%;
-         margin: 0;
-         padding: 0;
+         padding-bottom: 40px;
      }
+     
+     .portfolio div{
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr;
+         row-gap: 60px;
+         padding: 95px;
+     }
+
+     .portfolio div img{
+         width: 300px;
+     }
+
+     nav{
+         flex-grow: 10;
+     }
+
+     
+
+
 
 }
