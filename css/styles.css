@@ -261,6 +261,25 @@ footer .container section{
 .my-picture div p{
     font-size: 18px;
 }
+
+.about div img{
+    width: 100%;
+}
+
+.about{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container-about p{
+    padding-bottom: 20px;
+}
+
+.about div p{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
  
 
 
@@ -403,6 +422,34 @@ footer .container section{
         order: -1;
     }
 
+    .container-aboutpage{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .my-picture div{
+        width: 350px;
+    }
+
+    .about div{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about div + div > section{
+        order: -1;
+    }
+
+    .about div + div + div > section{
+        order: 1;
+    }
+
+    .about div section{
+        align-self: center;
+    }
 
 
 }
@@ -544,7 +591,24 @@ footer .container section{
         order: -1;
     }
 
+    .container-aboutpage{
+        width: 1000px;
+        margin: 0 auto;
+    }
 
+    .container-about .my-picture{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
+    .my-picture div{
+        display: flex;
+        align-items: center;
+    }
+
+    
 
 }
