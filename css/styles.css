@@ -353,6 +353,7 @@ footer .container section{
         background-color: #040A0A;
         width: 1280px;
         margin: 0 auto;
+        padding-top: 0;
     }
 
     .section-banner p{
@@ -389,8 +390,13 @@ footer .container section{
      main .container .container{
          background-color: #276E6A;
          padding-bottom: 40px;
+         padding-top: 20px;
      }
      
+    main{
+        padding-top: 0;
+    }
+
      .portfolio div{
          grid-template-columns: 1fr 1fr 1fr;
          grid-template-rows: 1fr 1fr 1fr;
@@ -402,12 +408,30 @@ footer .container section{
          width: 300px;
      }
 
-     nav{
-         flex-grow: 10;
-     }
-
-     
+    header{
+        padding-top: 20px;
+    }
 
 
+    header .container{
+        margin: 0 auto;
+    }
 
+    nav ul li{
+        padding: 30px;
+    }
+
+    nav ul li:hover{
+        background-color: #276E6A;
+    }
+
+    .container{
+        padding-top: 0;
+    }
+
+    footer .container {
+        width: 80vw;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
 }
