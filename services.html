@@ -26,15 +26,28 @@
         </div>      
     </header>  
     <main> 
-        <div class="container">
+        <div class="services-container">
                 <div class="main">
                         <section class="do"> 
-                            <img src="images/clark-tibbs-oqStl2L5oxI-unsplash.jpg" alt="">
+                            <picture>
+                                <source srcset="images/services-banner-desktop.jpg"
+                                        media="(min-width: 0px)" />
+                            
+                                <source srcset="images/services-banner-tablet.jpg"
+                                        media="(min-width: 800px)" />
+                            
+                                <source srcset="images/services-banner-desktop.jpg"
+                                        media="(min-width: 1280px)" />
+                            
+                                <img class="orig-img"
+                                     src="images/services-banner.jpg"
+                                     alt="do something great neon writing">
+                            </picture>
                         </section> <!-- end section intro  -->
                 </div>
 
             <section class="portfolio">
-                    <h2>Portfolio</h2>
+                    <h2>Services</h2>
                 <div>
                     <picture>
                         <source srcset="images/portfolio/web-final-mobile.jpg"

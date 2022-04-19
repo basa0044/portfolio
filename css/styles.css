@@ -224,6 +224,11 @@ footer .container section{
 }
 
 
+.do img{
+    width: 100%;
+}
+
+
 
 @media screen and (min-width:500px) {
     p{
@@ -334,6 +339,7 @@ footer .container section{
         justify-content: space-evenly;
     }
 
+
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -442,6 +448,8 @@ footer .container section{
     .container .main{
         padding: 0;
     } 
+
+
 
 
 }
