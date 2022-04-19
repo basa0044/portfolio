@@ -72,6 +72,7 @@ h2{
 
 .portfolio div{
     background-color: #384545;
+    margin: 50px;
 }
 
 
@@ -101,7 +102,7 @@ footer .container{
 }
 
 p{
-    font-size: 18px;
+    font-size: 11px;
     line-height: 22px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -133,20 +134,27 @@ header nav ul li:hover{
 header nav ul li:hover a{
     color: #040A0A;
  }
-
- .section-banner img{
-     width: 100%;
+ 
+ .section-banner{
+     height: max-content;
+     position:  relative;
  }
 
  .section-banner div{
+    position: absolute;
+    top: 50%;
+    transform: translate(-5%, -50%);
     background-color: #F4F4F4;
-    padding-top:10px;
-    padding-bottom: 25px;
-    padding-right: 30px;
+    padding-top:5px;
+    padding-bottom: 15px;
     padding-left: 30px;
-    margin: 0 auto;
-    width: 60vw;
     z-index: 1;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .section-banner img{
+     width: 100%;
  }
 
  .section-banner div p{
@@ -164,7 +172,21 @@ button{
     border: none;
     background-color: #276E6A;
     color: white;
-    font-size: 18px;
+    font-size: 11px;
+}
+
+h2{
+    padding-left: 60px;
+}
+
+@media screen and (min-width:500px) {
+    p{
+        font-size: 16px;
+    }
+
+    button{
+        font-size: 16px;
+    }
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -174,10 +196,23 @@ button{
 @media screen and (min-width:800px) {
 
     .container{
-        width: 760px;
+        width: 800px;
         margin: 0 auto;
         padding-right: 0;
         padding-left: 0;
+    }
+
+    main .container{
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 50px;
+        padding-bottom: 0;
+        background-color: #276E6A;
+    }
+
+    .section-banner img{
+        width: 100%;
     }
 
     .section-banner p{
@@ -192,8 +227,16 @@ button{
         padding-left: 30px;
         width:423px;
         margin: 0 auto;
-        justify-content: center;
-     }
+        left: 22%;
+    }
+
+    .portfolio{
+        background-color:#040A0A ;
+    }
+
+    h2{
+        padding-top: 40px;
+    }
 
 }
 
@@ -210,6 +253,17 @@ button{
         width: 1240px;
     }
 
+    main .container{
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .section-banner{
+        width: 100vw;
+        background-color: #276E6A;
+
+    }
+
     .section-banner p{
         width: 456px;
     }
@@ -222,6 +276,11 @@ button{
         padding-left: 30px;
         width:436px;
         margin: 0 auto;
+        font-size: 18px;
+     }
+
+     button{
+         font-size: 18px;
      }
 
 }

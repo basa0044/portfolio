@@ -28,7 +28,20 @@
     <main> 
         <div class="container">
             <section class="section-banner"> 
-                <img src="images/banner-image.jpg" alt="banner">
+                <picture>
+                    <source srcset="images/banner-image-mobile.jpg"
+                            media="(min-width: 0px)" />
+                
+                    <source srcset="images/banner-image-tablet.jpg"
+                            media="(min-width: 800px)" />
+                
+                    <source srcset="img/art/square/lego_square_480.png"
+                            media="(min-width: 320px)" />
+                
+                    <img class="orig-img"
+                         src="images/banner-image.jpg"
+                         alt="banner image">
+                </picture>
                 <div>
                     <p>
                     <span>Hi!</span>
@@ -41,7 +54,7 @@
                 </div>
             </section> <!-- end section intro  -->
 
-            <section class="Portfolio">
+            <section class="portfolio">
                     <h2>Portfolio</h2>
                 <div>
                     <img src="#" alt="">
