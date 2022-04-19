@@ -350,16 +350,13 @@ footer .container section{
     }
 
     main .container{
+        background-color: #040A0A;
+    }
+
+    main .container{
         padding-right: 60px;
         padding-left: 60px;
     }
-
-    .section-banner{
-        width: 100vw;
-        background-color: #276E6A;
-
-    }
-
 
     .section-banner p{
         width: 456px;
@@ -378,6 +375,13 @@ footer .container section{
 
      button{
          font-size: 18px;
+     }
+
+      main .container .container{
+         background-color: #276E6A;
+         width: 100%;
+         margin: 0;
+         padding: 0;
      }
 
 }
