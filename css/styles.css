@@ -72,7 +72,7 @@ h2{
 
 .portfolio div{
     background-color: #384545;
-    margin: 50px;
+    margin: 40px;
 }
 
 
@@ -182,10 +182,15 @@ h2{
 .portfolio div{
     padding: 23px;
     display: grid;
+    gap: 16px;
 }
 
 .portfolio div img{
     width: 60vw;
+    margin: 0 auto;
+}
+
+.portfolio div picture{
     margin: 0 auto;
 }
 
@@ -213,6 +218,8 @@ h2{
     }
 
     main .container{
+
+        width: 800px;
         margin: 0 auto;
         padding-left: 0;
         padding-right: 0;
@@ -242,6 +249,10 @@ h2{
 
     .portfolio{
         background-color:#040A0A ;
+    }
+
+    .portfolio div picture{
+        width: 300px;
     }
 
     h2{
