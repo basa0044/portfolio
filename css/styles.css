@@ -229,6 +229,24 @@ footer .container section{
 }
 
 
+.services{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.services img{
+    width: 100%;
+}
+
+.services div p{
+    padding-bottom: 20px;
+}
+
+.services div h2{
+    font-size: 16px;
+}
+
+
 
 @media screen and (min-width:500px) {
     p{
@@ -339,6 +357,37 @@ footer .container section{
         justify-content: space-evenly;
     }
 
+    .services div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    .services div h2{
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .services{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .services div + div > section{
+        order: -1;
+    }
+
+    .services div + div + div > section{
+        order: 1;
+    }
+
+    .services div + div + div + div > section{
+        order: -1;
+    }
+
+
 
 }
 
@@ -448,6 +497,36 @@ footer .container section{
     .container .main{
         padding: 0;
     } 
+
+    .services div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    .services div h2{
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .services{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .services div + div > section{
+        order: -1;
+    }
+
+    .services div + div + div > section{
+        order: 1;
+    }
+
+    .services div + div + div + div > section{
+        order: -1;
+    }
 
 
 
