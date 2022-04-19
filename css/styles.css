@@ -434,4 +434,14 @@ footer .container section{
         margin: 0 auto;
         justify-content: space-between;
     }
+    
+    .container .do img{
+        width: 100%;
+    }
+
+    .container .main{
+        padding: 0;
+    } 
+
+
 }
