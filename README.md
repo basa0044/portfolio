@@ -19,5 +19,20 @@ I wanted to try and find a way to achieve this look without using position eleme
 
 2. I had the same issue on my contact page, where I wanted to center my form on top of the image.
 
-3. 
+3. I struggled with my container structure on the contact page. 
+
+I followed the final demo videos but I had to give different class names to avoid overlapping styles with my other pages.
+
+4. I couldn't get the nav bleed full width of the page on my desktop size.
+
+I learned that I need to study on container structure, and I need to learn how to do image/text overlay without position elements. I also learned "margin: 0 auto" doesn't work with inline elements :). I feel like I am better at using grid and flexbox!
+
+## Sources
+
+- All images are mine or from [Unsplash](https://www.unsplash.com)
+- The font that I use is "Bitter" from [Google Fonts](https://fonts.google.com/)
+- I looked for examples from [IMDAC Webiste](https://imdac.github.io/) to remember some elements
+- I looked for examples from [W3Schools](https://www.w3schools.com/) to learn or remember as well.
+- Design is made by me.
+
      
