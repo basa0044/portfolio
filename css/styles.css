@@ -529,14 +529,12 @@ input::placeholder{
         width: 500px;
     }
 
-    main img{
-        width: 800px;
-        height: 896px;
+    .contact-background{
+        height: 900px;
+        width: 770px;
+        margin: 0 auto;
         display: block;
-        margin: 0 auto; 
-}
-
-
+    }
 
 
 }
@@ -696,17 +694,19 @@ input::placeholder{
         align-items: center;
     }
 
-    main{
+    .background{
         width: 100vw;
         background-color: #276E6A;
         padding-top: 60px;
     }
 
 
-    main img{
-        height: 870px;
+    .contact-background{
+        height: 970px;
+        width: 968px;
+        margin: 0 auto;
+        display: block;
     }
-
 
 
 }
