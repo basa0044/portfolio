@@ -1,5 +1,5 @@
-# portfolio
+# Final Assignment - Portfolio
 
-<h1>Final Assignment Portfolio Read Me File </h1>
+In this file, I will explain how I created my portfolio website; the challanges I had; how I overcame or couldn't overcame them.
 
-<p>In this file, I will explain </p>
+
