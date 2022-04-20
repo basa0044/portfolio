@@ -278,8 +278,84 @@ footer .container section{
     padding-top: 20px;
     padding-bottom: 20px;
 }
- 
 
+/* main .container-contactpage{
+    background-image: url(../images/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+} */
+
+main img{
+    width: 100%;
+}
+
+main{
+    position: relative;
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#message{
+    height: 200px;
+}
+
+main .container-contactpage{
+    position: absolute;
+    top: 0;
+    background-color: #384545; 
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 20%;
+    width: 70%;
+    max-height: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container-contactpage h2{
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.adress{
+    background-color: #040A0A;
+    width: 265px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#message::placeholder{
+    font-family:'Bitter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+input::placeholder{
+    font-family:'Bitter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+#submit{
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: #040A0A;
+    color: #ffffff;
+}
 
 @media screen and (min-width:500px) {
     p{
@@ -449,6 +525,19 @@ footer .container section{
         align-self: center;
     }
 
+    main .container-contactpage{
+        width: 500px;
+    }
+
+    main img{
+        width: 800px;
+        height: 896px;
+        display: block;
+        margin: 0 auto; 
+}
+
+
+
 
 }
 
@@ -605,6 +694,17 @@ footer .container section{
     .my-picture div{
         display: flex;
         align-items: center;
+    }
+
+    main{
+        width: 100vw;
+        background-color: #276E6A;
+        padding-top: 60px;
+    }
+
+
+    main img{
+        height: 870px;
     }
 
 
