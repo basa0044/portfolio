@@ -1,5 +1,7 @@
 # Final Assignment - Portfolio
 
+##Brief Explanation 
+
 In this file, I will explain how I created my portfolio website; the challanges I had; how I overcame or couldn't overcame them.
 
 In my portfolio website there are basic four pages; home, services, about and contact.
